@@ -1,6 +1,13 @@
 import random
 
 
+def user_details():
+    """
+    The user enter his/her name
+    As well as a breakdown of the rules of the game.
+    """
+    
+
 def game_choice():
     """
     Here we are going to ask the user to input a number
