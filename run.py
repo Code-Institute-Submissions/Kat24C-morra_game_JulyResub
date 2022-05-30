@@ -67,3 +67,13 @@ def game_choice():
         else:
             print("The computer got 0")
             print(f"The computer's total is {comp_score}\n")
+            finalgame(player_score, comp_score)
+
+
+def finalgame(player_score, comp_score):
+    """
+    This will decide if the game continues
+    """
+
+
+game_choice()
