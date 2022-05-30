@@ -74,6 +74,12 @@ def finalgame(player_score, comp_score):
     """
     This will decide if the game continues
     """
+    if player_score >= 12:
+        print("Congratulations you win :)")
+    elif comp_score >= 12:
+        print("Sorry the computer won :(")
+    else:
+        return True
 
 
 game_choice()
