@@ -79,10 +79,28 @@ def finalgame(player_score, comp_score):
     """
     if player_score >= 12:
         print("Congratulations you win :)")
+        play_again()
     elif comp_score >= 12:
         print("Sorry the computer won :(")
+        play_again()
     else:
         return True
+
+
+def play_again():
+    """
+    Asks the user if they would like to restart the game.
+    """
+    play_more = input("Would you like to play again? Yes/No: ").lower()
+    if play_more == "yes":
+        print("Fantastic lets play again.")
+        print()
+        game_choice()
+    elif play_more == "no":
+        quit()
+    else:
+        print("Invalid option")
+        play_again()
 
 
 game_choice()
