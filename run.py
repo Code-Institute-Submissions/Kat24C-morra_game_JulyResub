@@ -27,18 +27,20 @@ def game_choice():
                     break
                 else:
                     print("Please enter a number between 1 and 3.")
-                    user_choice = int(input("Choose a number between 1 and 3: "))
+                    user_choice = int(input("\
+Choose a number between 1 and 3: "))
         computer_guess = random.randint(1, 3)
         print(f"The computer chose: {computer_guess}\n")
-        
+
         try:
-            user_guess = int(input("Guess the computers number 1, 2 or 3: "))
+            user_guess = int(input("\
+Guess the computers number 1, 2 or 3: "))
             while user_guess != 1 or user_guess != 2 or user_guess != 3:
                 if user_guess == 1 or user_guess == 2 or user_guess == 3:
                     break
                 else:
                     raise ValueError()
-        except ValueError: 
+        except ValueError:
             print("Please enter a valid number")
             user_guess = int(input("Guess the computers number 1, 2, 3: "))
             while user_guess != 1 or user_guess != 2 or user_guess != 3:
@@ -46,7 +48,8 @@ def game_choice():
                     break
                 else:
                     print("Please enter a number between 1 and 3: ")
-                    user_guess = int(input("Guess the computers number 1, 2, 3: "))
+                    user_guess = int(input("\
+Guess the computers number 1, 2, 3: "))
         computer_choice = random.randint(1, 3)
         print(f"The computer chose: {computer_choice}\n")
 
