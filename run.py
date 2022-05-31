@@ -73,15 +73,20 @@ Guess the computers number 1, 2, 3: "))
             print(f"Well done, You got {user_score}")
             player_score = player_score + user_score
             print(f"Your total is {player_score}\n")
+            finalgame(player_score, comp_score)
+      
         else:
             print("Oh dear, try again you got 0")
             print(f"Your total is {player_score}")
+            finalgame(player_score, comp_score)
 
         if user_choice == computer_guess:
             computer_score = user_choice + computer_guess
             print(f"The computer got {computer_score}")
             comp_score = comp_score + computer_score
             print(f"The computer's total is {comp_score}\n")
+            finalgame(player_score, comp_score)
+
         else:
             print("The computer got 0")
             print(f"The computer's total is {comp_score}\n")
