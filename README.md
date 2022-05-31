@@ -64,8 +64,10 @@ The winner is the first one to reach a total of 12.
  * The user is able to choose if they want to play again. 
 
 ## Bugs
-### Solved bugs
-
+### Solved Bugs
+ * When I wrote the project, the totals kept going to the zero value. I fixed this by putting it all in the function game_choice.
+ * If the user wrote a word and then the wrong number it did not work. I fixed this by adding a while statement to the except statement. 
+ 
 ### Remaining Bugs
  * No bugs remain
 
