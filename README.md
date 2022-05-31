@@ -63,7 +63,28 @@ The winner is the first one to reach a total of 12.
  * The user is able to see if they win or the computer wins. 
  * The user is able to choose if they want to play again. 
 
+## Bugs
+### Solved bugs
 
+### Remaining Bugs
+ * No bugs remain
 
+### Validator Testing
+ * PEP8
+  * No errors were returned from PEP8online.com 
+
+## Deployment
+This project was deployed using Code Institute's mock terminal for Heroku
+ * Steps for deployment:
+  * Create a new Heroku app. 
+  * Set Convig Vars Key: Port Value: 8000. 
+  * Set the buildbacks to Python and NodeJS in that order. 
+  * Change Deployment method to GitHub. 
+  * Connect to GitHub repository morra_game. 
+  * Click on Deploy
+
+## Credits
+ * Code institute for the deployment terminal
+ * https://mindyourdecisions.com/ for the rules of the Morra game.
 
  
