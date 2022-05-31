@@ -74,7 +74,7 @@ Guess the computers number 1, 2, 3: "))
             player_score = player_score + user_score
             print(f"Your total is {player_score}\n")
             finalgame(player_score, comp_score)
-      
+
         else:
             print("Oh dear, try again you got 0")
             print(f"Your total is {player_score}")
