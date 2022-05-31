@@ -6,6 +6,13 @@ https://morra-game.herokuapp.com/
 
 ![live-version](https://user-images.githubusercontent.com/98415901/171197867-502a40b6-19a8-4403-8a66-9160d1d15e1c.jpg)
 
+### User stories
+ * The user needs to guess the computers number and choose a number between 1 and 3
+ * The user needs to see if they scored or the computer scored. 
+ * The user will see the total throughout the game. 
+ * The user will be able to see if they win or the computer wins. 
+ * The user gets to choose if they want to play again. 
+
 ## How to play
 
 Morra game is based on the hand game Morra. You can find out more about Morra at the link provided: https://en.wikipedia.org/wiki/Morra_(game). 
@@ -47,6 +54,14 @@ The winner is the first one to reach a total of 12.
     * If the user types anything else it will come up as an invalid option.
  
  ![playagain](https://user-images.githubusercontent.com/98415901/171202248-76e9bfb3-4954-45b5-9d88-660a353b2a0c.jpg)
+ 
+ ## Testing
+ ### User story testing
+ * The user is able to input a number between 1 and 3
+ * The user is able to see if they scored or the computer scored. 
+ * The user is able see the total throughout the game. 
+ * The user is able to see if they win or the computer wins. 
+ * The user is able to choose if they want to play again. 
 
 
 
