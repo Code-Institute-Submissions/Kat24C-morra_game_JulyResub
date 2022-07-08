@@ -67,6 +67,7 @@ The winner is the first one to reach a total of 12.
 ### Solved Bugs
  * When I wrote the project, the totals kept going to the zero value. I fixed this by putting it all in the function game_choice.
  * If the user wrote a word and then the wrong number it did not work. I fixed this by adding a while statement to the except statement. 
+ * When user does not add an input twice in a row the program crashed. I fixed this by taking away the second try and except. 
  
 ### Remaining Bugs
  * No bugs remain
@@ -76,17 +77,22 @@ The winner is the first one to reach a total of 12.
   * No errors were returned from PEP8online.com 
 
 ## Deployment
-This project was deployed using Code Institute's mock terminal for Heroku
+bThis project was deployed using Code Institute's mock terminal for Heroku
  * Steps for deployment:
-  * Create a new Heroku app. 
-  * Set Convig Vars Key: Port Value: 8000. 
-  * Set the buildbacks to Python and NodeJS in that order. 
+  * Started by creating a new Heroku app. 
+  * Click on settings and Go to Convig Vars
+  * Set Key to Port and Value to 8000. 
+  * Go to buildbacks, click on add buildback
+  * Then click on Python and NodeJS in that order. 
+  * Click on Deploy at top of page. 
   * Change Deployment method to GitHub. 
-  * Connect to GitHub repository morra_game. 
-  * Click on Deploy
+  * Connect to GitHub and add repository morra_game. 
+  * Check if manual deploy is on main otherwise set to main. 
+  * Click on Deploy Branch
 
 ## Credits
  * Code institute for the deployment terminal
  * https://mindyourdecisions.com/ for the rules of the Morra game.
+ * 
 
  
