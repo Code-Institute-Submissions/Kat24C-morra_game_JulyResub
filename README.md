@@ -40,7 +40,7 @@ The winner is the first one to reach a total of 12.
  *  Computer generates a number between 1 and 3.
  *  Maintains the scores. 
 
-![number](https://user-images.githubusercontent.com/98415901/171200568-8d75bf19-5c17-4534-ad7a-92a74c8d2da4.jpg)
+![number](https://user-images.githubusercontent.com/98415901/178437268-431fe95f-7869-4c75-880b-24dd55dc9c3c.jpg)
 
   * Input validation
     * You cannot enter a word or symbol. 
@@ -58,12 +58,14 @@ The winner is the first one to reach a total of 12.
   * No input
    * If the user does not enter any number it will ask the user to input a valid number. 
   
-  
- 
+  ![no_input](https://user-images.githubusercontent.com/98415901/178437143-f76ec44d-739d-4d99-a97f-a328ca92886b.jpg)
+  ![guess](https://user-images.githubusercontent.com/98415901/178437326-ad6fa6d3-3211-4a22-8ffb-1645ced08f2c.jpg)
+
  ## Testing
  ### User story testing
  * The user is able to input a number between 1 and 3
  * The user is able to see if they scored or the computer scored. 
+
  * The user is able see the total throughout the game. 
  * The user is able to see if they win or the computer wins. 
  * The user is able to choose if they want to play again. 
