@@ -55,6 +55,11 @@ The winner is the first one to reach a total of 12.
  
  ![playagain](https://user-images.githubusercontent.com/98415901/171202248-76e9bfb3-4954-45b5-9d88-660a353b2a0c.jpg)
  
+  * No input
+   * If the user does not enter any number it will ask the user to input a valid number. 
+  
+  
+ 
  ## Testing
  ### User story testing
  * The user is able to input a number between 1 and 3
@@ -77,7 +82,7 @@ The winner is the first one to reach a total of 12.
   * No errors were returned from PEP8online.com 
 
 ## Deployment
-bThis project was deployed using Code Institute's mock terminal for Heroku
+This project was deployed using Code Institute's mock terminal for Heroku
  * Steps for deployment:
   * Started by creating a new Heroku app. 
   * Click on settings and Go to Convig Vars
@@ -93,6 +98,4 @@ bThis project was deployed using Code Institute's mock terminal for Heroku
 ## Credits
  * Code institute for the deployment terminal
  * https://mindyourdecisions.com/ for the rules of the Morra game.
- * 
 
- 
