@@ -40,13 +40,14 @@ The winner is the first one to reach a total of 12.
  *  Computer generates a number between 1 and 3.
  *  Maintains the scores. 
 
-![number](https://user-images.githubusercontent.com/98415901/178437268-431fe95f-7869-4c75-880b-24dd55dc9c3c.jpg)
+![number-1](https://user-images.githubusercontent.com/98415901/178440171-f6c907b1-9e3a-42e1-b428-657c033408a0.jpg)
 
   * Input validation
     * You cannot enter a word or symbol. 
     * You must enter a number between 1 and 3
 
 ![error](https://user-images.githubusercontent.com/98415901/171200994-726e4c8f-5e0d-412d-a571-82cf29d9ef91.jpg)
+
 
   * Restart game
     * If user enters yes the game will restart. 
@@ -57,11 +58,14 @@ The winner is the first one to reach a total of 12.
  
   * No input
    * If the user does not enter any number it will ask the user to input a valid number. 
-  
-  ![no_input](https://user-images.githubusercontent.com/98415901/178437143-f76ec44d-739d-4d99-a97f-a328ca92886b.jpg)
-  ![guess](https://user-images.githubusercontent.com/98415901/178437326-ad6fa6d3-3211-4a22-8ffb-1645ced08f2c.jpg)
+ 
+![no_input-1](https://user-images.githubusercontent.com/98415901/178440248-b18aa078-2570-4a43-b8c9-34c25a2e7d81.jpg)
+
+![guess-1](https://user-images.githubusercontent.com/98415901/178440345-5f80e1ae-2f2c-418f-a3f3-5ec4d7fc9cd6.jpg)
+
 
  ## Testing
+ 
  ### User story testing
  * The user is able to input a number between 1 and 3
  * The user is able to see if they scored or the computer scored. 
